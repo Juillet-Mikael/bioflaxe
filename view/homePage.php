@@ -7,5 +7,18 @@
  * @version 0.1 || 13.02.2021
  */
 
+ob_start();
+$title = "Bioflaxe . Accueil";
+?>
+<section>
+    <div>
+        <p>
+            salut c'est la page principale.
+        </p>
+    </div>
+</section>
+<?php
+$content = ob_get_clean();
+require "gabarit.php";
 ?>
 

@@ -7,4 +7,9 @@
  * @version 0.1 || 13.02.2021
  */
 
+function home(){
+    require "view/homePage.php";
+}
+
+
 ?>

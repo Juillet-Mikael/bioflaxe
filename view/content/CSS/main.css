@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+    margin :0px;
+    padding: 0px;
+    font-family: Constantia;
+}
+
+div {
+    float: left;
+    border: 1px solid black;
+}
+/*
+===========Header Menu =============
+ */
+.headerMenu {
+    width: 75%;
+    background-color: rgb(202, 202, 202);
+    border-color: rgb(202, 202, 202);
+}
+.headerMenu p a{
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+    color: forestgreen;
+}
+.HeaderUser {
+    width: 25%;
+    background-color: rgb(202, 202, 202);
+    border-color: rgb(202, 202, 202);
+}
+.HeaderUser p a{
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+    color: forestgreen;
+}
+/*
+===========Footer Menu =============
+ */
+
+.footerMenu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(202, 202, 202);
+    border-color: rgb(202, 202, 202);
+}
+

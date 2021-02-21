@@ -15,8 +15,8 @@ if (isset($_GET["action"])){
         case 'home':
             home();
         break;
-
-
+        default:
+            home();
     }
 
 }else {
